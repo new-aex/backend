@@ -1,0 +1,34 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+node_modules
+.htaccess
+
+# testing
+/coverage
+
+# production
+app/build
+.next
+.next/
+app/out
+
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Wordpress
+!/wp
+/wp/*
+!/wp/inc
+!/wp/wp-config.php
+# plugins
+/app/plugins/*
+/app/uploads/*
+/app/languages
+/app/themes/oort-admin/assets/scss
